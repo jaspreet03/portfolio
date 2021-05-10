@@ -1,5 +1,8 @@
 @media only screen and (max-width:1300px){
   
+  .logo img {
+    width: 60px;
+  }
   .firstHalf {
           
     display: flex;
@@ -13,13 +16,14 @@
     border: 2px solid white;
     border-radius: 400px;
     background-color:  rgb(134, 71, 185);
+    width: 500px;
 }
 
 
 
 }
 
-@media only screen and (max-width:1100px) {
+@media only screen and (max-width:1200px) {
 
 .logo{
   display: flex;
@@ -28,7 +32,7 @@
     align-items: center
 }
 .logo img {
-  width: 35%;
+  width: 55px;
 }
 
     .nav-list{

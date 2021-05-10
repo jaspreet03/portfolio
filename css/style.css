@@ -25,7 +25,7 @@ html{
 }
 
 .logo img {
-  width: 30%;
+  width: 70px;
   
   border: 2px solid gray;
   border-radius: 50%;
@@ -141,7 +141,7 @@ padding: 15px;
   align-items: center;
 }
 .firstHalf img {
-  width: 80%;
+  width: 800px;
   
 }
 
