@@ -38,6 +38,7 @@ html{
   position: sticky;
   top: 0;
   cursor: pointer;
+  z-index: 3;
 }
 
 .nav-list {
@@ -241,7 +242,9 @@ margin: 100px 0 150px 0;
 .portfolio-box2 .right-side{
   text-align: center;
 }
-
+.portfolio-box2 .left-side{
+padding-right: 30px;
+}
 
 .left-side{
 display: flex;
@@ -250,7 +253,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 text-align:center;
-padding: 0 15px 10px 15px;
+padding-left:30px;
 }
 
 
@@ -264,10 +267,23 @@ padding: 0 15px 10px 15px;
 
 }
 
+
+
 .right-side img{
-width:75%;
+width:95%;
+padding:30px 0 30px 0;
+border-radius: 10px;
 
 }
+.resp-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding:0 4px 0 4px;
+}
+
+
 
 .tech-btn{
 display: flex;
