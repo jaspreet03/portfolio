@@ -109,14 +109,23 @@ padding: 15px;
   font-size: 20px;
 }
 .btn-abt {
-  padding: 5px 15px;
+  padding: 7px 15px;
   border: 3px solid black;
   border-radius: 8px;
   background: beige;
   color: rgb(36, 34, 34);
   cursor: pointer;
   font-family: "Stylish", sans-serif;
-  font-size: 22px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.btn-abt:hover{
+background-color: rgb(131, 47, 131);
+color: white;
+border: 3px solid rgb(54, 8, 54);
+
+
+
 }
 
 
@@ -241,7 +250,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 text-align:center;
-
+padding: 0 15px 10px 15px;
 }
 
 
@@ -258,6 +267,24 @@ text-align:center;
 .right-side img{
 width:75%;
 
+}
+
+.tech-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.btn-small{
+padding: 4px;
+  border-radius: 7px;
+  background: rebeccapurple;
+  color: white;
+  cursor: default;
+  font-size: 10px;
+  margin: 10px 10px 0 0; 
 }
 
 
