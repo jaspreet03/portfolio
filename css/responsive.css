@@ -140,14 +140,17 @@
 
       .portfolio-box{
         flex-direction: column;
-        margin:50px 0 150px 0;
+        margin:50px 0 80px 0;
       }
       .right-side{
         text-align: center;
       }
+      .right-side .img{
+        padding: 5px 0 0 0 ;
+      }
       .portfolio-box2{
         flex-direction: column;
-        margin:50px 0 150px 0;
+        margin:50px 0 80px 0;
       }
 
     }

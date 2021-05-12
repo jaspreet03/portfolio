@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -95,7 +97,7 @@
         <div class="left-side">
              <h2><span style="color:rgb(36, 34, 34)"><b>STREAMY</b></span></h2>
               <p><span  style="color:rgb(36, 34, 34); font-size:20px;">Responsive movies streaming website with login/register system using cookies/session.
-                The data credentials are stored and retrieved using Mysql.The user can search for a movie in search bar or request for latest movies by posting comments.</span></p>
+                The data credentials are stored and retrieved using mysql.The user can search for a movie in search bar or request for latest movies by posting comments.</span></p>
              <div class="tech-btn">
             <button class="btn-small">HTML5</button>
             <button class="btn-small">CSS3</button>
@@ -107,12 +109,9 @@
         </div>  
  
         <div class="right-side">
-                 <a href="img/Streamyone1.png"> <img  src="img/Streamyone1.png"  ></img></a>
-                 <div class="resp-img">
-                 <a href="img/resp-streamy1.png"><img class="mobile"  src="img/resp-streamy1.png"  ></img></a>     
-                 <a href="img/resp-streamy2.png"><img class="mobile"  src="img/resp-streamy2.png"  ></img></a>     
-                </div>
-                 <a href="img/Streamytwo2.png"><img   src="img/Streamytwo2.png"  ></img></a>     
+            
+                 <img  class="appler"  style="animation-duration: 2s; " src="img/streamy.png" ></img>
+              
         </div> 
     </div>
 
@@ -132,8 +131,7 @@
                 </div>
         </div>  
         <div class="right-side">
-            <a href="img/IEducateone1.png"> <img src="img/IEducateone1.png"  ></img></a>
-            <a href="img/IEducatethree3.png"><img src="img/IEducatethree3.png"  ></img></a>
+             <img  class="applel"style="animation-duration: 2s; "  src="img/ieducate.png"  ></img>
         </div> 
     </div>
 
@@ -152,12 +150,8 @@
                     
                     </div>
         </div>  
-        <div class="right-side">
-            
-             <a href="img/wordpress.png"> <img   src="img/wordpress.png"  ></img></a>
-             <a href="img/wordpresstwo.png"><img   src="img/wordpresstwo.png"  ></img></a>
-            
-            
+        <div class="right-side"> 
+             <img class="appleri" style="animation-duration: 2s; "   src="img/wordpress.png"  ></img>
         </div> 
     </div>
 
@@ -276,7 +270,42 @@
 
 
 <!-------javascript --------->
-<script src="js/toggle.js"></script>
+
+<script>
+$(document).ready(function() {
+  $(window).scroll(function(){
+
+if($(this).scrollTop()<1100 && $(this).scrollTop()>2500 ){
+    $('.appler').addClass('opac');
+    $('.applel').addClass('opac');
+    $('.appleri').addClass('opac');
+
+}
+
+      if ($(this).scrollTop() > 1100) {
+         $('.appler').addClass('animate__fadeInRight');
+         $('.appler').removeClass('opac');
+      } else {
+         $('.appler').removeClass('animate__fadeInRight');
+        }
+
+        if ($(this).scrollTop() > 1700) {
+         $('.applel').addClass('animate__fadeInLeft');
+         $('.applel').removeClass('opac');
+      } else {
+         $('.applel').removeClass('animate__fadeInLeft');
+      }
+
+      if ($(this).scrollTop() > 2300) {
+         $('.appleri').addClass('animate__fadeInRight');
+         $('.appleri').removeClass('opac');
+      } else {
+         $('.appleri').removeClass('animate__fadeInRight');
+      }
+
+  });
+});
+</script>
 
 </body>
 </html>
