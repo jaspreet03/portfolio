@@ -110,7 +110,7 @@
  
         <div class="right-side">
             
-                 <img  class="appler"  style="animation-duration: 2s; " src="img/streamy.png" ></img>
+                 <img  class="appler"  style="animation-duration: 1.5s; " src="img/streamy.png" ></img>
               
         </div> 
     </div>
@@ -131,7 +131,7 @@
                 </div>
         </div>  
         <div class="right-side">
-             <img  class="applel"style="animation-duration: 2s; "  src="img/ieducate.png"  ></img>
+             <img  class="applel"style="animation-duration: 1.5s; "  src="img/ieducate.png"  ></img>
         </div> 
     </div>
 
@@ -151,7 +151,7 @@
                     </div>
         </div>  
         <div class="right-side"> 
-             <img class="appleri" style="animation-duration: 2s; "   src="img/wordpress.png"  ></img>
+             <img class="appleri" style="animation-duration: 1.5s; "   src="img/wordpress.png"  ></img>
         </div> 
     </div>
 
@@ -275,7 +275,7 @@
 $(document).ready(function() {
   $(window).scroll(function(){
 
-if($(this).scrollTop()<1100 && $(this).scrollTop()>2500 ){
+if($(this).scrollTop()<1100 || $(this).scrollTop()>2600 ){
     $('.appler').addClass('opac');
     $('.applel').addClass('opac');
     $('.appleri').addClass('opac');
@@ -289,14 +289,14 @@ if($(this).scrollTop()<1100 && $(this).scrollTop()>2500 ){
          $('.appler').removeClass('animate__fadeInRight');
         }
 
-        if ($(this).scrollTop() > 1700) {
+        if ($(this).scrollTop() > 1900) {
          $('.applel').addClass('animate__fadeInLeft');
          $('.applel').removeClass('opac');
       } else {
          $('.applel').removeClass('animate__fadeInLeft');
       }
 
-      if ($(this).scrollTop() > 2300) {
+      if ($(this).scrollTop() > 2600) {
          $('.appleri').addClass('animate__fadeInRight');
          $('.appleri').removeClass('opac');
       } else {
