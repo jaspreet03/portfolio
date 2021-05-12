@@ -160,8 +160,26 @@ border: 3px solid rgb(54, 8, 54);
   justify-content: center;
   width: 30%;
   flex-direction: column;
-  margin: 250px 300px 230px auto;
+  
 }
+.secondHalf p span.cursor {
+  display: inline-block;
+  background-color: #1c1c5c;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.secondHalf p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #1c1c5c; }
+  49% { background-color: #1c1c5c; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #1c1c5c; }
+}
+
 .text-big {
   font-size: 65px;
   letter-spacing: 4px;

@@ -6,7 +6,7 @@
   .firstHalf {
           
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width:60%;
     align-items: center;
     
