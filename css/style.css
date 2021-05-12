@@ -113,7 +113,7 @@ padding: 15px;
   padding: 7px 15px;
   border: 3px solid black;
   border-radius: 8px;
-  background: beige;
+  background: white;
   color: rgb(36, 34, 34);
   cursor: pointer;
   font-family: "Stylish", sans-serif;
@@ -199,7 +199,7 @@ p.sectionSubtag{
 .sectiontwo{
   height: 100%;
   padding-top: 60px;
-  background-color: beige;
+  background-color: white;
 }
 .portfolio h1{
   
@@ -309,7 +309,7 @@ padding: 4px;
 .sectionthree{
   height: 100%;
   padding-top: 70px;
-  background-color: beige;
+  background-color: white;
 }
 .tools-skills h1{
   margin: 12px 0 100px 0;
